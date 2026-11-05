@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+joblib
+python-dotenv
+mlflow>=2.11.0
+sagemaker-mlflow

@@ -1,0 +1,21 @@
+# Secrets and credentials - NEVER commit
+.env
+*.pem
+.aws/
+
+# Data and models
+data/raw/
+*.joblib
+*.tar.gz
+model/
+.last_model_uri
+
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
